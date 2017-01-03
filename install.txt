@@ -1,0 +1,26 @@
+# install.txt
+
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt-get dist-upgrade -y
+sudo apt-get install -y gcc python-dev python-setuptools libffi-dev python-pip zip unzip python-magic trickle postfix mysql-server	# interactive
+# CREATE DATABASE bus_time;
+
+## mysql
+## sudo echo >> ~/.my.cnf
+## [client]
+## user=root
+## password=
+## CREATE DATABASE nycbusarchive
+## sudo chkconfig mysqld on
+## sudo service mysqld start
+
+# awscli
+sudo pip install awscli
+aws configure   # us-east-1
+aws configure --profile foobar
+
+# gsutil
+sudo pip install gsutil
+gsutil config # project-id: mtabusmonitor
+

@@ -1,0 +1,4 @@
+MAILTO=foobar@gmail.com
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+0 0 * * *	sleep 9; /home/ubuntu/bus_time_zipper/zip_bus_time.sh; sudo shutdown -h +1 &
+
